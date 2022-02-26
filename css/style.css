@@ -1,14 +1,15 @@
-.main {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    place-items: center;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
     user-select: none;
     background-color: #d1d1d1;
+    text-transform: capitalize;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
 }
 
 button,
@@ -23,7 +24,6 @@ input {
 input:focus {
     outline: none;
 }
-
 #displayPlayerCard {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -39,7 +39,6 @@ input:focus {
     margin: 10px;
     border-radius: 8px;
 }
-
 .stylePlayers img {
     width: 100%;
 }
