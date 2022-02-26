@@ -24,26 +24,31 @@ input {
 input:focus {
     outline: none;
 }
+
 #displayPlayerCard {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
 }
-#showDetails{
-    width: 100%;
+
+#showDetails {
+    height: 50%;
+    width: 50%;
 }
+
 .stylePlayers,
 .singlePlayer {
     background-color: #fff;
     padding: 10px;
     margin: 10px;
     border-radius: 8px;
+    text-align: justify;
 }
+
 .stylePlayers img {
     width: 100%;
 }
-.singlePlayer img {
-    width: 50%;
-    margin: 0px auto;
-}
 
+.singlePlayer img {
+    width: 100%;
+}
